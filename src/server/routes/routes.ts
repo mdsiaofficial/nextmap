@@ -1,0 +1,50 @@
+import fs from "fs";
+import path from "path";
+import { Router } from "express";
+import type { ScanResult, AppConfig } from "../types.js";
+import { generateSvg } from "../services/svg-export.js";
+
+export function createRoutesRouter(scanResult: ScanResult, config: AppConfig): Router {
+  const router = Router();
+
+  router.get("/api/config", (_req, res) => {
+    res.json(config);
+  });
+
+  router.get("/api/routes", (_req, res) => {
+    res.json(scanResult);
+  });
+
+  router.get("/api/export/svg", (_req, res) => {
+    const svg = generateSvg(scanResult.routes);
+    res.setHeader("Content-Type", "image/svg+xml");
+    res.setHeader("Content-Disposition", "attachment; filename=nextmap.svg");
+    res.send(svg);
+  });
+
+  router.get("/api/source", (req, res) => {
+    const { file } = req.query;
+    if (!file || typeof file !== "string") {
+      res.status(400).json({ error: "file query parameter required" });
+      return;
+    }
+
+    const rootPath = path.resolve(config.rootPath);
+    const fullPath = path.resolve(rootPath, file);
+
+    // Prevent directory traversal
+    if (!fullPath.startsWith(rootPath + path.sep) && fullPath !== rootPath) {
+      res.status(403).json({ error: "Access denied" });
+      return;
+    }
+
+    try {
+      const content = fs.readFileSync(fullPath, "utf-8");
+      res.json({ content, file });
+    } catch {
+      res.status(404).json({ error: "File not found" });
+    }
+  });
+
+  return router;
+}

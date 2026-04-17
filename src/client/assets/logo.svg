@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Map/paper background -->
+  <rect x="12" y="16" width="96" height="88" rx="10" fill="#1a1d27" stroke="#6366f1" stroke-width="3"/>
+
+  <!-- Folded corner -->
+  <path d="M84 16 L108 16 Q108 16 108 16 L108 40 Z" fill="#2a2d3a" stroke="#6366f1" stroke-width="2"/>
+  <line x1="84" y1="16" x2="108" y2="40" stroke="#6366f1" stroke-width="2"/>
+
+  <!-- Route lines -->
+  <line x1="32" y1="42" x2="60" y2="42" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="60" y1="42" x2="60" y2="62" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="60" y1="62" x2="88" y2="62" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="60" y1="62" x2="36" y2="82" stroke="#f97316" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <line x1="60" y1="62" x2="80" y2="82" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Route nodes -->
+  <!-- Root node -->
+  <circle cx="32" cy="42" r="6" fill="#6366f1"/>
+  <text x="32" y="45" text-anchor="middle" font-size="8" font-weight="bold" fill="white" font-family="monospace">/</text>
+
+  <!-- Branch node -->
+  <circle cx="60" cy="42" r="5" fill="#3b82f620" stroke="#3b82f6" stroke-width="2"/>
+
+  <!-- Junction node -->
+  <circle cx="60" cy="62" r="7" fill="#6366f1"/>
+  <text x="60" y="65" text-anchor="middle" font-size="7" font-weight="bold" fill="white" font-family="monospace">M</text>
+
+  <!-- API endpoint -->
+  <rect x="80" y="56" width="16" height="12" rx="3" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="88" y="65" text-anchor="middle" font-size="7" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+
+  <!-- Page endpoint (dynamic) -->
+  <rect x="28" y="76" width="16" height="12" rx="3" fill="#f9731620" stroke="#f97316" stroke-width="1.5"/>
+  <text x="36" y="85" text-anchor="middle" font-size="7" font-weight="bold" fill="#f97316" font-family="monospace">[ ]</text>
+
+  <!-- Page endpoint -->
+  <rect x="72" y="76" width="16" height="12" rx="3" fill="#ef444420" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="80" y="85" text-anchor="middle" font-size="7" font-weight="bold" fill="#ef4444" font-family="monospace">P</text>
+
+  <!-- Compass arrow top-right -->
+  <g transform="translate(92, 28)">
+    <circle cx="0" cy="0" r="8" fill="#1a1d27" stroke="#6366f140" stroke-width="1"/>
+    <polygon points="0,-6 2,2 -2,2" fill="#6366f1"/>
+    <polygon points="0,6 2,-2 -2,-2" fill="#6366f150"/>
+  </g>
+</svg>
