@@ -24,7 +24,6 @@ Stop guessing where your routes live. **nextmap** scans your Next.js project and
 
 Supports **App Router**, **Pages Router**, and **hybrid** projects. No compilation, no config, no dependencies on your project.
 
-<!-- TODO: Replace with actual screenshot/gif -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/icydotdev/nextmap/main/assets/screenshot-dark.png" width="800" alt="nextmap dashboard" />
 </p>
@@ -83,22 +82,18 @@ nextmap
 </details>
 
 <details>
-<summary>Source code viewer</summary>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/icydotdev/nextmap/main/assets/screenshot-source.png" width="800" alt="Source code viewer" />
-</p>
-</details>
-
-<details>
 <summary>SVG export</summary>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/icydotdev/nextmap/main/assets/screenshot-svg.png" width="800" alt="SVG export" />
+  <img src="https://raw.githubusercontent.com/icydotdev/nextmap/main/assets/screenshot-svg.svg" width="800" alt="SVG export" />
 </p>
 </details>
 
 ## Usage
 
 ```bash
+# Via npx
+npx nextmap
+
 # Interactive mode (opens browser)
 nextmap
 
@@ -111,24 +106,21 @@ nextmap --no-browser
 # Export as SVG (no server)
 nextmap --export-svg
 nextmap --export-svg -o my-routes.svg
-
-# Via npx
-npx nextmap
 ```
 
 ### What gets scanned
 
-| Feature | App Router | Pages Router |
-|---------|-----------|-------------|
-| Pages | `page.tsx` | `*.tsx` in `pages/` |
-| API routes | `route.ts` (with method detection) | `pages/api/*.ts` |
-| Layouts | `layout.tsx` | N/A |
-| Middleware | `middleware.ts` (with matcher parsing) | N/A |
-| Dynamic routes | `[id]`, `[...slug]`, `[[...slug]]` | `[id]`, `[...slug]` |
-| Route groups | `(auth)`, `(marketing)` | N/A |
-| Parallel routes | `@modal`, `@sidebar` | N/A |
-| Intercepting routes | `(.)`, `(..)`, `(...)` | N/A |
-| Special files | `loading`, `error`, `not-found`, `template` | N/A |
+| Feature             | App Router                                  | Pages Router        |
+| ------------------- | ------------------------------------------- | ------------------- |
+| Pages               | `page.tsx`                                  | `*.tsx` in `pages/` |
+| API routes          | `route.ts` (with method detection)          | `pages/api/*.ts`    |
+| Layouts             | `layout.tsx`                                | N/A                 |
+| Middleware          | `middleware.ts` (with matcher parsing)      | N/A                 |
+| Dynamic routes      | `[id]`, `[...slug]`, `[[...slug]]`          | `[id]`, `[...slug]` |
+| Route groups        | `(auth)`, `(marketing)`                     | N/A                 |
+| Parallel routes     | `@modal`, `@sidebar`                        | N/A                 |
+| Intercepting routes | `(.)`, `(..)`, `(...)`                      | N/A                 |
+| Special files       | `loading`, `error`, `not-found`, `template` | N/A                 |
 
 ### How it works
 
@@ -145,30 +137,35 @@ npx nextmap
 <summary><strong>Does this run my Next.js app?</strong></summary>
 
 No. nextmap only reads your filesystem — it doesn't start Next.js, compile your code, or import your modules. It's purely static analysis.
+
 </details>
 
 <details>
 <summary><strong>Does it work with the `src/` directory?</strong></summary>
 
 Yes. nextmap checks both `app/` and `src/app/` (same for `pages/`).
+
 </details>
 
 <details>
 <summary><strong>What about `next.config.js` rewrites and redirects?</strong></summary>
 
 Not yet — planned for a future version. Currently nextmap only shows filesystem-based routes.
+
 </details>
 
 <details>
 <summary><strong>Can I use the SVG in documentation?</strong></summary>
 
 Yes. Use `nextmap --export-svg` to generate a static SVG you can embed in READMEs, docs, or wikis.
+
 </details>
 
 <details>
 <summary><strong>Does this upload my code anywhere?</strong></summary>
 
 No. nextmap is a local-only tool. The server runs on `localhost`, the frontend is bundled static assets served from your machine. Zero network requests to external services.
+
 </details>
 
 ## Roadmap

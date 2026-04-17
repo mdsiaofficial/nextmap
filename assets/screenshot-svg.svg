@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1940" width="800" height="1940">
+  <rect width="800" height="1940" fill="#0f1117" rx="12"/>
+
+  <!-- Header -->
+  <text x="20" y="40" font-size="20" font-weight="bold" fill="#6366f1" font-family="system-ui, sans-serif">nextmap</text>
+  <text x="120" y="40" font-size="14" fill="#6b7280" font-family="system-ui, sans-serif">46 routes</text>
+
+  <!-- Legend -->
+  <circle cx="600" cy="36" r="6" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+  <text x="610" y="40" font-size="11" fill="#6b7280" font-family="system-ui">Page</text>
+  <circle cx="660" cy="36" r="6" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+  <text x="670" y="40" font-size="11" fill="#6b7280" font-family="system-ui">API</text>
+  <circle cx="720" cy="36" r="6" fill="#6366f120" stroke="#6366f1" stroke-width="1"/>
+  <text x="730" y="40" font-size="11" fill="#6b7280" font-family="system-ui">Middleware</text>
+
+  <line x1="20" y1="60" x2="780" y2="60" stroke="#2a2d3a" stroke-width="1"/>
+
+  
+    <g>
+      <rect x="20" y="66" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="80" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="84" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">M</text>
+      <text x="58" y="84" font-size="13" fill="#e5e7eb" font-family="monospace">/</text>
+      
+      
+    </g>
+
+    <g>
+      <rect x="20" y="106" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="120" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="124" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="124" font-size="13" fill="#e5e7eb" font-family="monospace">/</text>
+      
+      <rect x="530" y="108" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="122" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="146" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="160" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="164" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="164" font-size="13" fill="#e5e7eb" font-family="monospace">/about</text>
+      
+      <rect x="530" y="148" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="162" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="186" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="200" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="204" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="204" font-size="13" fill="#e5e7eb" font-family="monospace">/account-blocked</text>
+      
+      <rect x="530" y="188" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="202" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="226" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="240" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="244" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="244" font-size="13" fill="#e5e7eb" font-family="monospace">/api/actions/revalidate</text>
+      
+      <rect x="530" y="228" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="553" y="242" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="266" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="280" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="284" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="284" font-size="13" fill="#e5e7eb" font-family="monospace">/api/analytics/dashboard</text>
+      
+      <rect x="530" y="268" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="282" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="306" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="320" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="324" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="324" font-size="13" fill="#e5e7eb" font-family="monospace">/api/analytics/events</text>
+      
+      <rect x="530" y="308" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="553" y="322" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="346" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="360" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="364" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="364" font-size="13" fill="#e5e7eb" font-family="monospace">/api/auth/[...nextauth]</text>
+      <rect x="490" y="348" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="362" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="348" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="362" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="348" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="605" y="362" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="386" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="400" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="404" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="404" font-size="13" fill="#e5e7eb" font-family="monospace">/api/billing</text>
+      
+      <rect x="530" y="388" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="402" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="426" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="440" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="444" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="444" font-size="13" fill="#e5e7eb" font-family="monospace">/api/billing/portal</text>
+      
+      <rect x="530" y="428" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="553" y="442" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="466" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="480" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="484" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="484" font-size="13" fill="#e5e7eb" font-family="monospace">/api/card/api/v1/cards/retail/cards/[cardId]</text>
+      <rect x="490" y="468" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="482" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="468" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="482" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="468" width="46" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="605" y="482" text-anchor="middle" font-size="10" fill="#f97316" font-family="monospace">PATCH</text>
+    </g>
+
+    <g>
+      <rect x="20" y="506" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="520" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="524" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="524" font-size="13" fill="#e5e7eb" font-family="monospace">/api/catalog/[category]/[itemId]</text>
+      <rect x="490" y="508" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="522" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="508" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="522" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="546" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="560" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="564" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="564" font-size="13" fill="#e5e7eb" font-family="monospace">/api/health</text>
+      
+      <rect x="530" y="548" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="562" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="586" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="600" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="604" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="604" font-size="13" fill="#e5e7eb" font-family="monospace">/api/legacy/export</text>
+      
+      <rect x="530" y="588" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="602" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="588" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="605" y="602" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+      <rect x="634" y="588" width="46" height="20" rx="4" fill="#eab30820" stroke="#eab308" stroke-width="1"/>
+        <text x="657" y="602" text-anchor="middle" font-size="10" fill="#eab308" font-family="monospace">PUT</text>
+      <rect x="686" y="588" width="46" height="20" rx="4" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+        <text x="709" y="602" text-anchor="middle" font-size="10" fill="#ef4444" font-family="monospace">DELETE</text>
+    </g>
+
+    <g>
+      <rect x="20" y="626" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="640" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="644" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="644" font-size="13" fill="#e5e7eb" font-family="monospace">/api/legacy/health</text>
+      
+      <rect x="530" y="628" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="642" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="628" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="605" y="642" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+      <rect x="634" y="628" width="46" height="20" rx="4" fill="#eab30820" stroke="#eab308" stroke-width="1"/>
+        <text x="657" y="642" text-anchor="middle" font-size="10" fill="#eab308" font-family="monospace">PUT</text>
+      <rect x="686" y="628" width="46" height="20" rx="4" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+        <text x="709" y="642" text-anchor="middle" font-size="10" fill="#ef4444" font-family="monospace">DELETE</text>
+    </g>
+
+    <g>
+      <rect x="20" y="666" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="680" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="684" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="684" font-size="13" fill="#e5e7eb" font-family="monospace">/api/projects</text>
+      
+      <rect x="530" y="668" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="682" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="668" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="605" y="682" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="706" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="720" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="724" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="724" font-size="13" fill="#e5e7eb" font-family="monospace">/api/projects/[id]</text>
+      <rect x="490" y="708" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="722" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="708" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="722" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="708" width="46" height="20" rx="4" fill="#eab30820" stroke="#eab308" stroke-width="1"/>
+        <text x="605" y="722" text-anchor="middle" font-size="10" fill="#eab308" font-family="monospace">PUT</text>
+      <rect x="634" y="708" width="46" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="657" y="722" text-anchor="middle" font-size="10" fill="#f97316" font-family="monospace">PATCH</text>
+      <rect x="686" y="708" width="46" height="20" rx="4" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+        <text x="709" y="722" text-anchor="middle" font-size="10" fill="#ef4444" font-family="monospace">DELETE</text>
+    </g>
+
+    <g>
+      <rect x="20" y="746" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="760" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="764" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="764" font-size="13" fill="#e5e7eb" font-family="monospace">/api/reports/generate</text>
+      
+      <rect x="530" y="748" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="553" y="762" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="786" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="800" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="804" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="804" font-size="13" fill="#e5e7eb" font-family="monospace">/api/search</text>
+      
+      <rect x="530" y="788" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="802" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="826" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="840" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="844" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="844" font-size="13" fill="#e5e7eb" font-family="monospace">/api/team</text>
+      
+      <rect x="530" y="828" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="842" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="828" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="605" y="842" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="866" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="880" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="884" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="884" font-size="13" fill="#e5e7eb" font-family="monospace">/api/team/[memberId]</text>
+      <rect x="490" y="868" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="882" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="868" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="882" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="868" width="46" height="20" rx="4" fill="#eab30820" stroke="#eab308" stroke-width="1"/>
+        <text x="605" y="882" text-anchor="middle" font-size="10" fill="#eab308" font-family="monospace">PUT</text>
+      <rect x="634" y="868" width="46" height="20" rx="4" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+        <text x="657" y="882" text-anchor="middle" font-size="10" fill="#ef4444" font-family="monospace">DELETE</text>
+    </g>
+
+    <g>
+      <rect x="20" y="906" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="920" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="924" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="924" font-size="13" fill="#e5e7eb" font-family="monospace">/api/v1/users</text>
+      
+      <rect x="530" y="908" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="922" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="908" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="605" y="922" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+      <rect x="634" y="908" width="46" height="20" rx="4" fill="#eab30820" stroke="#eab308" stroke-width="1"/>
+        <text x="657" y="922" text-anchor="middle" font-size="10" fill="#eab308" font-family="monospace">PUT</text>
+      <rect x="686" y="908" width="46" height="20" rx="4" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+        <text x="709" y="922" text-anchor="middle" font-size="10" fill="#ef4444" font-family="monospace">DELETE</text>
+    </g>
+
+    <g>
+      <rect x="20" y="946" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="960" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="964" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="964" font-size="13" fill="#e5e7eb" font-family="monospace">/api/v1/users/[userId]</text>
+      <rect x="490" y="948" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="962" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="948" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="962" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+      <rect x="582" y="948" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="605" y="962" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+      <rect x="634" y="948" width="46" height="20" rx="4" fill="#eab30820" stroke="#eab308" stroke-width="1"/>
+        <text x="657" y="962" text-anchor="middle" font-size="10" fill="#eab308" font-family="monospace">PUT</text>
+      <rect x="686" y="948" width="46" height="20" rx="4" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+        <text x="709" y="962" text-anchor="middle" font-size="10" fill="#ef4444" font-family="monospace">DELETE</text>
+    </g>
+
+    <g>
+      <rect x="20" y="986" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1000" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="1004" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="1004" font-size="13" fill="#e5e7eb" font-family="monospace">/api/webhooks/github</text>
+      
+      <rect x="530" y="988" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="553" y="1002" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1026" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1040" r="10" fill="#22c55e20" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="36" y="1044" text-anchor="middle" font-size="10" font-weight="bold" fill="#22c55e" font-family="monospace">A</text>
+      <text x="58" y="1044" font-size="13" fill="#e5e7eb" font-family="monospace">/api/webhooks/stripe</text>
+      
+      <rect x="530" y="1028" width="46" height="20" rx="4" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+        <text x="553" y="1042" text-anchor="middle" font-size="10" fill="#22c55e" font-family="monospace">POST</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1066" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1080" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1084" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1084" font-size="13" fill="#e5e7eb" font-family="monospace">/billing</text>
+      
+      <rect x="530" y="1068" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1082" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1106" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1120" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1124" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1124" font-size="13" fill="#e5e7eb" font-family="monospace">/blog</text>
+      
+      <rect x="530" y="1108" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1122" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1146" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1160" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1164" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1164" font-size="13" fill="#e5e7eb" font-family="monospace">/blog/[slug]</text>
+      <rect x="490" y="1148" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="1162" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="1148" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1162" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1186" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1200" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1204" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1204" font-size="13" fill="#e5e7eb" font-family="monospace">/dashboard</text>
+      
+      <rect x="530" y="1188" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1202" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1226" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1240" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1244" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1244" font-size="13" fill="#e5e7eb" font-family="monospace">/dashboard/settings</text>
+      
+      <rect x="530" y="1228" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1242" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1266" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1280" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1284" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1284" font-size="13" fill="#e5e7eb" font-family="monospace">/docs/[[...slug]]</text>
+      <rect x="490" y="1268" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="1282" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="1268" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1282" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1306" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1320" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1324" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1324" font-size="13" fill="#e5e7eb" font-family="monospace">/labs</text>
+      
+      <rect x="530" y="1308" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1322" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1346" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1360" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1364" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1364" font-size="13" fill="#e5e7eb" font-family="monospace">/labs</text>
+      
+      <rect x="530" y="1348" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1362" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1386" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1400" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1404" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1404" font-size="13" fill="#e5e7eb" font-family="monospace">/landing</text>
+      
+      <rect x="530" y="1388" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1402" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1426" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1440" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1444" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1444" font-size="13" fill="#e5e7eb" font-family="monospace">/login</text>
+      
+      <rect x="530" y="1428" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1442" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1466" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1480" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1484" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1484" font-size="13" fill="#e5e7eb" font-family="monospace">/pricing</text>
+      
+      <rect x="530" y="1468" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1482" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1506" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1520" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1524" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1524" font-size="13" fill="#e5e7eb" font-family="monospace">/projects</text>
+      
+      <rect x="530" y="1508" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1522" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1546" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1560" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1564" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1564" font-size="13" fill="#e5e7eb" font-family="monospace">/projects/[id]</text>
+      <rect x="490" y="1548" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="1562" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="1548" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1562" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1586" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1600" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1604" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1604" font-size="13" fill="#e5e7eb" font-family="monospace">/projects/[id]</text>
+      <rect x="490" y="1588" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="1602" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="1588" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1602" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1626" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1640" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1644" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1644" font-size="13" fill="#e5e7eb" font-family="monospace">/projects/[id]/settings</text>
+      <rect x="490" y="1628" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="1642" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="1628" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1642" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1666" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1680" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1684" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1684" font-size="13" fill="#e5e7eb" font-family="monospace">/reports</text>
+      
+      <rect x="530" y="1668" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1682" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1706" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1720" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1724" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1724" font-size="13" fill="#e5e7eb" font-family="monospace">/reports/[reportId]</text>
+      <rect x="490" y="1708" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="1722" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="1708" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1722" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1746" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1760" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1764" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1764" font-size="13" fill="#e5e7eb" font-family="monospace">/reset-password</text>
+      
+      <rect x="530" y="1748" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1762" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1786" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1800" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1804" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1804" font-size="13" fill="#e5e7eb" font-family="monospace">/signup</text>
+      
+      <rect x="530" y="1788" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1802" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1826" width="760" height="36" rx="6" fill="#1a1d2700"/>
+      <circle cx="36" cy="1840" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1844" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1844" font-size="13" fill="#e5e7eb" font-family="monospace">/team</text>
+      
+      <rect x="530" y="1828" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1842" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+
+    <g>
+      <rect x="20" y="1866" width="760" height="36" rx="6" fill="#1a1d2740"/>
+      <circle cx="36" cy="1880" r="10" fill="#3b82f620" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="36" y="1884" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b82f6" font-family="monospace">P</text>
+      <text x="58" y="1884" font-size="13" fill="#e5e7eb" font-family="monospace">/team/[memberId]</text>
+      <rect x="490" y="1868" width="32" height="20" rx="4" fill="#f9731620" stroke="#f97316" stroke-width="1"/>
+        <text x="506" y="1882" text-anchor="middle" font-size="9" fill="#f97316" font-family="monospace">dyn</text>
+      <rect x="530" y="1868" width="46" height="20" rx="4" fill="#3b82f620" stroke="#3b82f6" stroke-width="1"/>
+        <text x="553" y="1882" text-anchor="middle" font-size="10" fill="#3b82f6" font-family="monospace">GET</text>
+    </g>
+</svg>
