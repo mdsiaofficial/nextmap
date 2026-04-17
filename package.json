@@ -1,6 +1,6 @@
 {
   "name": "nextmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A visual, interactive map of all your Next.js routes. Zero config.",
   "type": "module",
   "bin": {
