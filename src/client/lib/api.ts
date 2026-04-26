@@ -58,6 +58,14 @@ export function getExportSvgUrl(): string {
   return `${BASE}/api/export/svg`;
 }
 
+export function getExportPngUrl(): string {
+  return `${BASE}/api/export/png`;
+}
+
+export function getExportPdfUrl(): string {
+  return `${BASE}/api/export/pdf`;
+}
+
 export async function fetchSource(filePath: string): Promise<string> {
   const res = await fetch(`${BASE}/api/source?file=${encodeURIComponent(filePath)}`);
   if (!res.ok) throw new Error("Failed to fetch source");

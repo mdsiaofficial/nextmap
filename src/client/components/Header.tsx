@@ -2,7 +2,7 @@ import React from "react";
 import { Moon, Sun, Download } from "lucide-react";
 import { useStore } from "../store/map";
 import { useThemeStore } from "../hooks/useTheme";
-import { getExportSvgUrl } from "../lib/api";
+import { getExportSvgUrl, getExportPngUrl, getExportPdfUrl } from "../lib/api";
 import logoSvg from "../assets/logo.svg";
 
 export function Header() {
@@ -61,6 +61,26 @@ export function Header() {
         >
           <Download size={13} />
           SVG
+        </a>
+        <a
+          href={getExportPngUrl()}
+          download="nextmap.png"
+          className="flex items-center gap-1 text-xs px-2 py-1.5 rounded-md transition-colors hover:bg-nm-accent/10"
+          style={{ color: "var(--color-text-secondary)" }}
+          title="Export as PNG"
+        >
+          <Download size={13} />
+          PNG
+        </a>
+        <a
+          href={getExportPdfUrl()}
+          download="nextmap.pdf"
+          className="flex items-center gap-1 text-xs px-2 py-1.5 rounded-md transition-colors hover:bg-nm-accent/10"
+          style={{ color: "var(--color-text-secondary)" }}
+          title="Export as PDF"
+        >
+          <Download size={13} />
+          PDF
         </a>
         <button
           onClick={toggle}

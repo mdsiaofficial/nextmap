@@ -3,6 +3,8 @@ import path from "path";
 import { Router } from "express";
 import type { ScanResult, AppConfig } from "../types.js";
 import { generateSvg } from "../services/svg-export.js";
+import { generatePng } from "../services/png-export.js";
+import { generatePdf } from "../services/pdf-export.js";
 
 export function createRoutesRouter(scanResult: ScanResult, config: AppConfig): Router {
   const router = Router();
@@ -20,6 +22,30 @@ export function createRoutesRouter(scanResult: ScanResult, config: AppConfig): R
     res.setHeader("Content-Type", "image/svg+xml");
     res.setHeader("Content-Disposition", "attachment; filename=nextmap.svg");
     res.send(svg);
+  });
+
+  router.get("/api/export/png", async (_req, res) => {
+    try {
+      const pngBuffer = await generatePng(scanResult.routes);
+      res.setHeader("Content-Type", "image/png");
+      res.setHeader("Content-Disposition", "attachment; filename=nextmap.png");
+      res.send(pngBuffer);
+    } catch (e) {
+      console.error(e);
+      res.status(500).send("Error generating PNG");
+    }
+  });
+
+  router.get("/api/export/pdf", async (_req, res) => {
+    try {
+      const pdfBuffer = await generatePdf(scanResult.routes);
+      res.setHeader("Content-Type", "application/pdf");
+      res.setHeader("Content-Disposition", "attachment; filename=nextmap.pdf");
+      res.send(pdfBuffer);
+    } catch (e) {
+      console.error(e);
+      res.status(500).send("Error generating PDF");
+    }
   });
 
   router.get("/api/source", (req, res) => {

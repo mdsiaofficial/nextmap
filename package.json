@@ -19,8 +19,13 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
+    "@types/pdfkit": "^0.17.6",
+    "@types/svg-to-pdfkit": "^0.1.4",
     "express": "^5.1.0",
-    "open": "^10.1.0"
+    "open": "^10.1.0",
+    "pdfkit": "^0.18.0",
+    "sharp": "^0.34.5",
+    "svg-to-pdfkit": "^0.1.8"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
